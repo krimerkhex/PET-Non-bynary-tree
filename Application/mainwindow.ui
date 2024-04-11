@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>988</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="toolTipDuration">
+   <number>-1</number>
+  </property>
+  <property name="statusTip">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>991</width>
+      <height>570</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>988</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuApplication">
+    <property name="title">
+     <string>Application</string>
+    </property>
+    <addaction name="actionInput_setting"/>
+    <addaction name="actionOutput_settings"/>
+    <addaction name="actionExit"/>
+    <addaction name="actionInfo"/>
+   </widget>
+   <widget class="QMenu" name="menuTree">
+    <property name="title">
+     <string>Tree</string>
+    </property>
+    <addaction name="actionAdd_node"/>
+    <addaction name="actionRemove_node"/>
+    <addaction name="actionSearch_node"/>
+    <addaction name="actionRefresh_tree"/>
+   </widget>
+   <addaction name="menuApplication"/>
+   <addaction name="menuTree"/>
+  </widget>
+  <action name="actionInput_setting">
+   <property name="text">
+    <string>Output settings</string>
+   </property>
+   <property name="toolTip">
+    <string>Output settings</string>
+   </property>
+  </action>
+  <action name="actionOutput_settings">
+   <property name="text">
+    <string>Input settings</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAdd_node">
+   <property name="text">
+    <string>Add node</string>
+   </property>
+  </action>
+  <action name="actionRemove_node">
+   <property name="text">
+    <string>Remove node</string>
+   </property>
+  </action>
+  <action name="actionSearch_node">
+   <property name="text">
+    <string>Search node</string>
+   </property>
+  </action>
+  <action name="actionRefresh_tree">
+   <property name="text">
+    <string>Refresh tree</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
